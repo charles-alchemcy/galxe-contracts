@@ -8,7 +8,6 @@ async function main() {
   const campaignSetter = process.env.CAMPAIGN_SETTER;
   const contractOwner = process.env.CONTRACT_OWNER;
   const treasureManager = process.env.TREASURE_MANAGER;
-
   if (
     galaxySigner === "" ||
     campaignSetter === "" ||

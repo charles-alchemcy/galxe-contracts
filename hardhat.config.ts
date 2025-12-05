@@ -22,6 +22,7 @@ const config: HardhatUserConfig = {
       zkSyncEra: process.env.ETHERSCAN_API_KEY || "",
     },
   },
+
   gasReporter: {
     currency: "USD",
     enabled: !!process.env.REPORT_GAS,

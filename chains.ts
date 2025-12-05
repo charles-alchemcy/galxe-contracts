@@ -9,6 +9,7 @@ export const networks = {
     url: "https://api.avax.network/ext/bc/C/rpc",
     accounts: [deployer],
   },
+
   bsc: {
     chainId: 56,
     url: "https://bsc-dataseed1.binance.org",

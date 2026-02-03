@@ -24,11 +24,11 @@ import {IStarNFT} from "./IStarNFT.sol";
  *
  * Interface for operating with StarNFTs.
  */
- 
+
 interface ISpaceStation {
 
     function claim(
-        uint256 _cid,
+        uint256 _id,
         IStarNFT _starNFT,
         uint256 _dummyId,
         uint256 _powah,

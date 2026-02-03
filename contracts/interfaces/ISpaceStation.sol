@@ -14,7 +14,7 @@
     limitations under the License.
     SPDX-License-Identifier: Apache License, Version 2.0
 */
-pragma solidity 0.7.7;
+pragma solidity 0.7.9;
 
 import {IStarNFT} from "./IStarNFT.sol";
 

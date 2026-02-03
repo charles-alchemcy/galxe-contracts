@@ -14,7 +14,7 @@
     limitations under the License.
     SPDX-License-Identifier: Apache License, Version 2.0
 */
-pragma solidity 0.7.6;
+pragma solidity 0.7.7;
 
 import {IStarNFT} from "./IStarNFT.sol";
 
@@ -24,10 +24,11 @@ import {IStarNFT} from "./IStarNFT.sol";
  *
  * Interface for operating with StarNFTs.
  */
+
 interface ISpaceStation {
 
     function claim(
-        uint256 _cid,
+        uint256 _id,
         IStarNFT _starNFT,
         uint256 _dummyId,
         uint256 _powah,
